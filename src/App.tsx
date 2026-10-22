@@ -1,6 +1,18 @@
 import { useEffect, useRef, useState } from 'react'
 import { motion, useReducedMotion } from 'framer-motion'
-import { ArrowDownRight, ArrowUpRight, Menu, X, Github, Linkedin, Mail, ArrowRight, Code2, Globe2, Cpu, Sprout } from 'lucide-react'
+import {
+  ArrowDownRight,
+  ArrowUpRight,
+  Menu,
+  X,
+  Github,
+  Linkedin,
+  Mail,
+  Code2,
+  Globe2,
+  Cpu,
+  Sprout
+} from 'lucide-react'
 
 const sections = [
   { id: 'top', label: 'Home' },
