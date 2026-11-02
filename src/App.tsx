@@ -279,7 +279,7 @@ export default function App() {
           <h1>Pratik <span>Srivastava</span></h1>
           <div className="hero-bottom">
             <div><p className="hero-role">COMPUTER SCIENCE ENGINEER</p><p className="hero-intro">I build scalable web experiences, solve real-world problems, and turn ideas into meaningful products.</p></div>
-            <div className="hero-actions"><a className="button button-light" href="#work" onClick={(e) => { e.preventDefault(); jump('work') }}>View Projects <ArrowUpRight size={15}/></a><a className="text-link" href="/assets/Pratik-Srivastava-Resume.pages" download>Download CV <ArrowDownRight size={15}/></a></div>
+            <div className="hero-actions"><a className="button button-light" href="#work" onClick={(e) => { e.preventDefault(); jump('work') }}>View Projects <ArrowUpRight size={15}/></a><a className="text-link" href="/assets/Pratik_Resume .pdf" download>Download CV <ArrowDownRight size={15}/></a></div>
           </div>
         </motion.div>
         <div className="hero-code-note" aria-hidden="true">const dreams = &#123;<br />&nbsp;&nbsp;code: true,<br />&nbsp;&nbsp;future: bright<br />&#125;;</div>
